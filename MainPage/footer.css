@@ -1,0 +1,29 @@
+.LandingPageMain-footerSection {
+  background-color: #ededed;
+  /* display: block; */
+  width: 100%;
+}
+
+.LandingPageMain-footerSection .content {
+  width: 30%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.LandingPageMain-footerSection .content p {
+  font-size: 25px;
+}
+
+.LandingPageMain-footerSection .content .socialMedia-Icons {
+  display: inline-flex;
+}
+
+.LandingPageMain-footerSection .content .socialMedia-Icons img {
+  width: 60px;
+  margin: 0 20px;
+}
+
+.LandingPageMain-footerSection .copyRight{
+    text-align: center;
+}
+
