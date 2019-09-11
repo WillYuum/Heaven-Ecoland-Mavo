@@ -1,0 +1,19 @@
+.LandingPageMain-storySection {
+  width: 100%;
+}
+
+.LandingPageMain-storySection h4 {
+  text-align: center;
+}
+
+.LandingPageMain-storySection .storySlogan {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.LandingPageMain-storySection .story {
+  height: 200px;
+  width: 70%;
+  margin: 0 auto;
+}

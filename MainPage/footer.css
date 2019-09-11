@@ -1,0 +1,74 @@
+/* ------------------------------FOOTER SECTION---------------------------- */
+
+.LandingPageMain-footerSection {
+  background-color: #ededed;
+  width: 100%;
+  padding:40px 0;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------SOCIAL MEDIA SECTION---------------------------- */
+
+.LandingPageMain-footerSection .content .socialMedia {
+  text-align: center;
+  
+}
+
+.LandingPageMain-footerSection .content .socialMedia .socialMedia-Title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.LandingPageMain-footerSection .content .socialMedia-Icons {
+  display: inline-flex;
+}
+
+.LandingPageMain-footerSection .content .socialMedia-Icons img {
+  width: 50px;
+  margin: 0 20px;
+}
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------CONTACT US SECTION---------------------------- */
+
+.LandingPageMain-footerSection .content .contactUs .contactus-Title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.LandingPageMain-footerSection .content .contactUs {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.LandingPageMain-footerSection .content .contactUs .contactus-Title {
+  width: 200px;
+  margin: 0 auto;
+  border-top: 3px solid black;
+}
+
+.LandingPageMain-footerSection .content .contactUs-Icons {
+  display: inline-flex;
+  margin: 0 auto;
+}
+
+.LandingPageMain-footerSection .content .contactUs-Icons .icon {
+  width: 150px;
+}
+
+.LandingPageMain-footerSection .content .contactUs-Icons img {
+  width: 40px;
+  margin: 0px auto;
+}
+
+.LandingPageMain-footerSection .content .contactUs-Icons .icon p {
+  font-size: 15px;
+}
+
+.LandingPageMain-footerSection .copyRight {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* ------------------------------------------------------------------------------- */

@@ -1,0 +1,9 @@
+.LandingPageMain-testimonials{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.image-testimonials{
+	height: 200px;
+	max-width: 200px;
+	border-radius: 280px;
+}
