@@ -9,6 +9,23 @@
     <link rel="stylesheet" href="../Mavo/mavo.css" />
     <!-----------------MAVO DATA --------------------->
 
+    <!-- nav_hero functionality javascript & jquery -->
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+      $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+          $(".nav").addClass("affix");
+          console.log("OK");
+        } else {
+          $(".nav").removeClass("affix");
+        }
+      });
+    </script>
+    <!-- nav_hero functionality javascript & jquery -->
     <!-----------------MAVO Gdrive PLUGIN-------------->
     <script src="../mavo-gdrive-master/mavo-gdrive.js"></script>
     <!-----------------MAVO Gdrive PLUGIN-------------->
@@ -29,7 +46,13 @@
 
     <!----------------------------CSS LINK FOR HTML---------------------------->
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="nav_hero.css" />
     <!----------------------------CSS LINK FOR HTML---------------------------->
+
+    <!-- font awesome links -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font awesome links -->
 
     <title>Heaven Ecoland</title>
   </head>
@@ -39,8 +62,60 @@
     mv-storage="gdrive://https://drive.google.com/drive/u/3/my-drive"
   >
     <div class="LandingPageMain-header">
-      <nav class="LandingPageMain-nav"></nav>
-      <div class="LandingPageMain-hero"></div>
+      <!-- Navbar -->
+      <nav class="LandingPageMain-nav">
+        <nav class="nav">
+          <div class="container">
+            <div class="logo">
+              <a href="LandingPageMain.html">Heaven Ecoland</a>
+            </div>
+            <!-- nav links -->
+            <div id="mainListDiv" class="main_list">
+              <ul class="navlinks">
+                <li><a href="../EventsPage/EventsPage.html">Event</a></li>
+                <li><a href="../BlogPage/BlogPage.html">Blog</a></li>
+                <li><a href="../GalleryPage/GalleryPage.html">Gallery</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <!-- nav links -->
+            <span class="navTrigger">
+              <i></i>
+              <i></i>
+              <i></i>
+            </span>
+          </div>
+        </nav>
+      </nav>
+      <!-- Navbar -->
+
+      <!-- hero section -->
+      <div class="LandingPageMain-hero">
+        <section class="home">
+          <!-- slogan -->
+          <div class="Slogan">
+            <h1>Where great things happen</h1>
+                <!-- social media icons -->
+          <div class="social_media">
+       
+           <a href="https://www.facebook.com/heavenecoland/" target="_blank" ><i class="fa fa-4x fa-facebook" data-toggle="tooltip" data-placement="left" title="Like us on Facebook"></i></a> 
+            <br>
+          <a href="https://www.instagram.com/explore/locations/149529028940477/heaven-ecoland" target="_blank" >  <i class="fa fa-4x fa-instagram" data-toggle="tooltip" data-placement="left" title="Follow us on Instagram"></i></a>
+            </div>
+            <p>Campground in Wadi El Sitt</p>
+            <p>Available 24/7</p>
+         
+          </div>
+          <!-- slogan -->
+      
+          </div>
+          <!-- social media icons  -->
+        </section>
+        <!-- <div style="height: 1000px">
+           just to make scrolling effect possible 
+        </div> -->
+      </div>
+      <!-- hero section -->
     </div>
     <div class="LandingPageMain-container">
       <div class="LandingPageMain-gallery">
