@@ -1,8 +1,29 @@
+.event-card{
+
+    /* position: absolute;
+   left:10%;
+   right:-10%;  */
+   
+   
+   
+    /* background-color: aqua; */
+    height: fit-content;
+ width:100%;
+   display:grid;
+   grid-template-columns: auto auto auto auto;
+   justify-content: center;
+   grid-column-gap:25px;
+    }
+
+
+
+
 .container {
     border:0 px solid #DDDDDD;
     width: 300px;
-/*     height: 300px; */
-    position: relative;
+   height:fit-content;
+   margin-bottom: 20px;
+/*    display: grid; */
     
  
  }
@@ -11,7 +32,7 @@
 
 .tag {
     float: right;
-    position: absolute;
+    position: relative;
     right: -15px;
     top: 50px;
     z-index: 1000;
@@ -29,21 +50,7 @@
     border-radius: 5px;
 
  }
- .event-card{
-width:80%;
-position: absolute;
-left:10%;
-right:-10%;
-
-
-
- /* background-color: aqua; */
  
-display:grid;
-grid-template-columns: auto auto auto auto;
-justify-content: center;
-grid-column-gap:25px;
- }
  h2{
 width:100px;
 float: left;
@@ -75,7 +82,7 @@ width: 100%;
 .description-warper{
     word-wrap: break-word; 
     overflow-x: hidden;
-    position: absolute;
+    position: relative;
     z-index: 999999;
     right: 0;
     left: 0;
@@ -111,4 +118,4 @@ display: table;
          }
 
 
-}
+}  
