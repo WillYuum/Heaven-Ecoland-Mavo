@@ -13,6 +13,12 @@
     <script src="../mavo-gdrive-master/mavo-gdrive.js"></script>
     <!-----------------MAVO Gdrive PLUGIN-------------->
 
+    <!-----------------MAVO TINYMCE PLUGIN-------------->
+    <script src="../mavo-tinymce/mavo-tinymce.js"></script>
+    <!-----------------MAVO TINYMCE PLUGIN-------------->
+
+    <!-----------------MAVO Gdrive PLUGIN-------------->
+
     <!--------------------------------BOOTSTRAP DATA--------------------------------------->
     <link
       rel="stylesheet"
@@ -38,7 +44,7 @@
   <body
     mv-app="LandingPageMain"
     mv-plugins="gdrive"
-    mv-storage="gdrive://https://drive.google.com/drive/u/3/my-drive"
+    mv-storage="https://drive.google.com/file/d/1p10C-S_scC1_sNFxuaCYvR0u-EIXl0mi/view?usp=sharing"
   >
     <div class="LandingPageMain-header">
       <nav class="LandingPageMain-nav"></nav>
@@ -54,8 +60,8 @@
       <div class="LandingPageMain-storySection">
         <h4>Our Story</h4>
         <p class="storySlogan">A place to reconnect with Nature</p>
-        <div class="story" property="StoryDescription">
-          <p class="story-desctiption"></p>
+        <div class="story">
+          <p property="storyDescription"></p>
         </div>
       </div>
       <div class="LandingPageMain-mapSection"></div>
@@ -63,7 +69,7 @@
     <footer class="LandingPageMain-footerSection">
       <div class="content">
         <div class="socialMedia">
-          <p class = "socialMedia-Title">Follow us on social Media</p>
+          <p class="socialMedia-Title">Follow us on social Media</p>
           <div class="socialMedia-Icons">
             <div class="icon">
               <a href="https://www.facebook.com/heavenecoland/" target="_blank">
@@ -81,7 +87,7 @@
           </div>
         </div>
         <div class="contactUs">
-          <p class = "contactus-Title">Contact Us</p>
+          <p class="contactus-Title">Contact Us</p>
           <div class="contactUs-Icons">
             <div class="icon">
               <img src="./icons/phone.png" alt="phone icon" />
