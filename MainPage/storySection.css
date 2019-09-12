@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-.LandingPageMain-storySection h4 {
+.LandingPageMain-storySection h2 {
   text-align: center;
 }
 
@@ -16,4 +16,5 @@
   height: 200px;
   width: 70%;
   margin: 0 auto;
+  font-size: 2em;
 }

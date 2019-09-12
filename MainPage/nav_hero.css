@@ -13,38 +13,43 @@ body {
 
 /* Navbar section */
 
-.LandingPageMain-nav .nav {
+.LandingPageMain-header .LandingPageMain-nav .nav {
   width: 100%;
-  height: 65px;
+  height: 5vh;
   position: fixed;
   line-height: 65px;
   text-align: center;
+  z-index: 10000;
 }
 
-.LandingPageMain-nav .nav div.logo {
+/* logo */
+.LandingPageMain-header .LandingPageMain-nav .nav div.logo {
   float: left;
   width: auto;
   height: auto;
   padding-left: 3rem;
 }
 
-.nav div.logo a {
+/* logo */
+.LandingPageMain-header .LandingPageMain-nav .nav div.logo a {
   text-decoration: none;
   color: #fff;
   font-size: 2.5rem;
 }
 
-.nav div.main_list a:hover {
-  /* background-color: yellowgreen; */
+/* nav hover */
+.LandingPageMain-header .nav div.main_list a:hover {
   text-decoration: underline;
 }
 
-.nav div.main_list {
+/* nav */
+.LandingPageMain-header .nav div.main_list {
   height: 65px;
   float: right;
 }
 
-.nav div.main_list ul {
+/* nav ul */
+.LandingPageMain-header .nav div.main_list ul {
   width: 100%;
   height: 65px;
   display: flex;
@@ -53,27 +58,27 @@ body {
   padding: 0;
 }
 
-.nav div.main_list ul li {
+/* nav li */
+.LandingPageMain-header .nav div.main_list ul li {
   width: auto;
   height: 65px;
   padding: 0;
   padding-right: 3rem;
 }
 
-.nav div.main_list ul li a {
+/* nav a */
+.LandingPageMain-header .nav div.main_list ul li a {
   text-decoration: none;
   color: #fff;
   line-height: 65px;
   font-size: 2.4rem;
 }
 
-/* Home section */
+/* Hero background image */
 
-.home {
+.LandingPageMain-hero .home {
   width: 100%;
   height: 100vh;
-  /* background-image: url(https://lh5.googleusercontent.com/p/AF1QipOmSO26U-n3gsWpHpT3G47n3aSeVBJ74tLuPqGa=w600-h485-p-k-no); */
-  /* background-image: url(https://lh3.googleusercontent.com/QWu2T2bNL8P-0S9TxOWcbS544WjP58HLrcR1_3fMsnDEMwiWzh1z-nbb2m837eRFIzPLabkJZCAPktQ7fw=w960-h960-n-o-v1); */
   background-position: center;
   background-size: cover;
   background-image: linear-gradient(
@@ -83,45 +88,54 @@ body {
     url(https://lh3.googleusercontent.com/mJucJPkLTfEmoqE9kNXjj5JGLyIhiP-Es_98KOWL4R2yWPaylqs12Ss_KNYLtkQWxAk71AZA=w1080-h608-p-no-v0);
 }
 
-.home h1 {
+/* hero h1 */
+.LandingPageMain-hero .home h1 {
   color: #cff5ad;
 
   padding-bottom: 1%;
   font-size: 400%;
 }
-.Slogan {
+
+/* hero slogan */
+.LandingPageMain-hero .Slogan {
   text-align: center;
-  /* background-color: rgba(0, 0, 0, 0.5); */
   padding-top: 15%;
 }
-.Slogan p {
+/* text under slogan */
+.LandingPageMain-hero .Slogan p {
   color: white;
   font-weight: bold;
   font-size: 200%;
 }
-.navTrigger {
+
+/* nav mobile trigger */
+.container .navTrigger {
   display: none;
 }
 
-.nav {
-  padding-top: 20px;
-  padding-bottom: 20px;
+/* nav */
+.LandingPageMain-header .nav {
+  padding-top: 1vh;
+  padding-bottom: 4vh;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 
-/* social media icons section */
-.fa-instagram {
+/* insta color  */
+.social_media .fa-instagram {
   color: #e42c1f;
 }
 
+/* facebook color */
 .fa-facebook {
   color: #1c89d1;
 }
 
+/* social media icons section */
 .social_media {
   position: fixed;
-  right: 0;
+  right: 10px;
+  top: 42vh;
 }
 /* Media qurey section */
 
