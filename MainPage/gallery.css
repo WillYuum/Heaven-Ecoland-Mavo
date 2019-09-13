@@ -1,0 +1,35 @@
+.LandingPageMain-images {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.LandingPageMain-gallery h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.LandingPageMain-images .galleryImage {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(295px, 1fr));
+  object-fit: cover;
+  gap: 20px 20px;
+}
+
+.mv-add-galleryImage {
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px dashed black;
+  font-size: 25px;
+}
+
+.mv-add-galleryImage:hover {
+  background-color: rgba(117, 29, 82, 0.3);
+}
+
+.LandingPageMain-images .img {
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+}
