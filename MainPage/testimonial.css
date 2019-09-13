@@ -1,8 +1,8 @@
-/* .LandingPageMain-testimonials .testimonial-title {
+ /* .LandingPageMain-testimonials .testimonial-title {
   text-align: center;
 }
 
-.LandingPageMain-testimonials .testimonials-container {
+.LandingPageMain-testimonials .testimonials-card {
   width: 80vw;
 }
 
@@ -11,7 +11,7 @@
   max-width: 200px;
   border-radius: 280px;
 }
-#name {
+ #name {
   margin-left: 35px;
 }
 #mapSection {
