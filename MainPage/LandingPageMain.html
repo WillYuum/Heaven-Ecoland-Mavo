@@ -1,197 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- -------------------Meta----------------------------------  -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- -------------------Meta----------------------------------  -->
 
-    <!-----------------MAVO DATA --------------------->
-    <script src="../Mavo/mavo.js"></script>
-    <link rel="stylesheet" href="../Mavo/mavo.css" />
-    <!-----------------MAVO DATA --------------------->
+<head>
+  <!-- -------------------Meta----------------------------------  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- -------------------Meta----------------------------------  -->
 
-    <!-- nav_hero functionality javascript & jquery -->
-    <!-- Jquery needed -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <!-- nav_hero functionality javascript & jquery -->
-    <!-- Jquery needed -->
+  <!-----------------MAVO DATA --------------------->
+  <script src="../Mavo/mavo.js"></script>
+  <link rel="stylesheet" href="../Mavo/mavo.css" />
+  <!-----------------MAVO DATA --------------------->
 
-    <!-- Function used to shrink nav bar removing paddings and adding black background -->
-    <script>
-      $(window).scroll(function() {
-        if ($(document).scrollTop() > 50) {
-          $(".nav").addClass("affix");
-          console.log("OK");
-        } else {
-          $(".nav").removeClass("affix");
-        }
-      });
-    </script>
-    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+  <!-- nav_hero functionality javascript & jquery -->
+  <!-- Jquery needed -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <!-- nav_hero functionality javascript & jquery -->
+  <!-- Jquery needed -->
 
-    <!-----------------MAVO Gdrive PLUGIN-------------->
-    <script src="../mavo-gdrive-master/mavo-gdrive.js"></script>
-    <!-----------------MAVO Gdrive PLUGIN-------------->
+  <!-- Function used to shrink nav bar removing paddings and adding black background -->
+  <script>
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+        $(".nav").addClass("affix");
+        console.log("OK");
+      } else {
+        $(".nav").removeClass("affix");
+      }
+    });
+  </script>
+  <!-- Function used to shrink nav bar removing paddings and adding black background -->
 
-    <!-----------------MAVO TINYMCE PLUGIN-------------->
-    <script src="../mavo-tinymce/mavo-tinymce.js"></script>
-    <!-----------------MAVO TINYMCE PLUGIN-------------->
+  <!-----------------MAVO Gdrive PLUGIN-------------->
+  <script src="../mavo-gdrive-master/mavo-gdrive.js"></script>
+  <!-----------------MAVO Gdrive PLUGIN-------------->
 
-    <!-----------------MAVO Gdrive PLUGIN-------------->
+  <!-----------------MAVO TINYMCE PLUGIN-------------->
+  <script src="../mavo-tinymce/mavo-tinymce.js"></script>
+  <!-----------------MAVO TINYMCE PLUGIN-------------->
 
-    <!--------------------------------BOOTSTRAP DATA--------------------------------------->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <!--------------------------------BOOTSTRAP DATA--------------------------------------->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <!------------------------------- bootstrap link --------------------------------------->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    />
-    <!------------------------------- bootstrap link --------------------------------------->
+  <!-----------------MAVO Gdrive PLUGIN-------------->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--------------------------------BOOTSTRAP DATA--------------------------------------->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!--------------------------------BOOTSTRAP DATA--------------------------------------->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!------------------------------- bootstrap link --------------------------------------->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <!------------------------------- bootstrap link --------------------------------------->
 
-    <!----------------------------CSS LINK FOR HTML---------------------------->
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="nav_hero.css" />
-    <link rel="stylesheet" href="event_style_sheet.css" />
-    <link rel="stylesheet" href="gallery.css" />
-    <link rel="stylesheet" href="testimonial.css" />
-    <link rel="stylesheet" href="storySection.css" />
-    <link rel="stylesheet" href="footer.css" />
-    <!----------------------------CSS LINK FOR HTML---------------------------->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <!-- font awesome links -->
+  <!----------------------------CSS LINK FOR HTML---------------------------->
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="nav_hero.css" />
+  <link rel="stylesheet" href="event_style_sheet.css" />
+  <link rel="stylesheet" href="gallery.css" />
+  <link rel="stylesheet" href="testimonial.css" />
+  <link rel="stylesheet" href="storySection.css" />
+  <link rel="stylesheet" href="footer.css" />
+  <!----------------------------CSS LINK FOR HTML---------------------------->
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <!-- font awesome links -->
+  <!-- font awesome links -->
 
-    <title>Heaven Ecoland</title>
-  </head>
-  <body
-    mv-app="LandingPageMain"
-    mv-plugins="gdrive"
-    mv-storage="https://drive.google.com/file/d/1p10C-S_scC1_sNFxuaCYvR0u-EIXl0mi/view?usp=sharing"
-  >
-    <div class="LandingPageMain-header">
-      <!-- Navbar -->
-      <nav class="LandingPageMain-nav">
-        <nav class="nav">
-          <div class="container">
-            <div class="logo">
-              <a href="LandingPageMain.html">Heaven Ecoland</a>
-            </div>
-            <!-- nav links -->
-            <div id="mainListDiv" class="main_list">
-              <ul class="navlinks">
-                <li><a href="../EventsPage/EventsPage.html">Event</a></li>
-                <li><a href="../BlogPage/BlogPage.html">Blog</a></li>
-                <li><a href="../GalleryPage/GalleryPage.html">Gallery</a></li>
-                <li><a href="#">Contact Us</a></li>
-              </ul>
-            </div>
-            <!-- nav links -->
-            <span class="navTrigger">
-              <i></i>
-              <i></i>
-              <i></i>
-            </span>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- font awesome links -->
+
+  <title>Heaven Ecoland</title>
+</head>
+
+<body mv-app="LandingPageMain" mv-plugins="gdrive"
+  mv-storage="https://drive.google.com/file/d/1p10C-S_scC1_sNFxuaCYvR0u-EIXl0mi/view?usp=sharing">
+  <div class="LandingPageMain-header">
+    <!-- Navbar -->
+    <nav class="LandingPageMain-nav">
+      <nav class="nav">
+        <div class="container">
+          <div class="logo">
+            <a href="LandingPageMain.html">Heaven Ecoland</a>
           </div>
-        </nav>
+          <!-- nav links -->
+          <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+              <li><a href="../EventsPage/EventsPage.html">Event</a></li>
+              <li><a href="../BlogPage/BlogPage.html">Blog</a></li>
+              <li><a href="../GalleryPage/GalleryPage.html">Gallery</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- nav links -->
+          <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+        </div>
       </nav>
-      <!-- Navbar -->
+    </nav>
+    <!-- Navbar -->
 
-      <!-- hero section -->
-      <div class="LandingPageMain-hero">
-        <section class="home">
-          <!-- slogan -->
-          <div class="Slogan">
-            <h1>Where great things happen</h1>
-            <!-- social media icons -->
-            <div class="social_media">
-              <a href="https://www.facebook.com/heavenecoland/" target="_blank"
-                ><i
-                  class="fa fa-4x fa-facebook"
-                  data-toggle="tooltip"
-                  data-placement="left"
-                  title="Like us on Facebook"
-                ></i
-              ></a>
-              <br />
-              <a
-                href="https://www.instagram.com/explore/locations/149529028940477/heaven-ecoland"
-                target="_blank"
-              >
-                <i
-                  class="fa fa-4x fa-instagram"
-                  data-toggle="tooltip"
-                  data-placement="left"
-                  title="Follow us on Instagram"
-                ></i
-              ></a>
-            </div>
-            <p>Campground in Wadi El Sitt</p>
-            <p>Available 24/7</p>
+    <!-- hero section -->
+    <div class="LandingPageMain-hero">
+      <section class="home">
+        <!-- slogan -->
+        <div class="Slogan">
+          <h1>Where great things happen</h1>
+          <!-- social media icons -->
+          <div class="social_media">
+            <a href="https://www.facebook.com/heavenecoland/" target="_blank"><i class="fa fa-4x fa-facebook"
+                data-toggle="tooltip" data-placement="left" title="Like us on Facebook"></i></a>
+            <br />
+            <a href="https://www.instagram.com/explore/locations/149529028940477/heaven-ecoland" target="_blank">
+              <i class="fa fa-4x fa-instagram" data-toggle="tooltip" data-placement="left"
+                title="Follow us on Instagram"></i></a>
           </div>
-          <!-- slogan -->
+          <p>Campground in Wadi El Sitt</p>
+          <p>Available 24/7</p>
+        </div>
+        <!-- slogan -->
 
-          <!-- social media icons  -->
-        </section>
-        <!-- <div style="height: 1000px">
+        <!-- social media icons  -->
+      </section>
+      <!-- <div style="height: 1000px">
            just to make scrolling effect possible 
         </div> -->
-      </div>
-      <!-- hero section -->
     </div>
-    <div class="LandingPageMain-container">
-      <!------------------<GALLERY>---------------------->
-      <div class="LandingPageMain-gallery">
-        <h2>Gallery</h2>
-        <div class="LandingPageMain-images">
-          <div class="galleryImage">
-            <img
-              mv-multiple
-              property="galleryImage"
-              src=""
-              alt="Add an image"
-              class="img"
-            />
-          </div>
-        </div>
-        <div class="LandingPageMain-videos">
-          <div class="LandingPageMain-videos"></div>
+    <!-- hero section -->
+  </div>
+  <div class="LandingPageMain-container">
+    <!------------------<GALLERY>---------------------->
+    <div class="LandingPageMain-gallery">
+      <h2>Gallery</h2>
+      <div class="LandingPageMain-images">
+        <div class="galleryImage">
+          <img mv-multiple property="galleryImage" src="" alt="Add an image" class="img" />
         </div>
       </div>
-      <!------------------</GALLERY>---------------------->
+      <div class="LandingPageMain-videos">
+        <div class="LandingPageMain-videos"></div>
+      </div>
+    </div>
+    <!------------------</GALLERY>---------------------->
+    <!-- <div class="LandingPageMain-eventSection">
+        <div class="event-card" >
+          <div class="event-container" mv-multiple>
+          <div class="event-img">
+            <img class="tag" src="" alt="Add Event" property="EventImage" />
+          </div>
+          <div class="description-wraper">
+            <time class="time" property="datetime" datetime></time>
+            <h3 class="event-title" property="eventTitle"></h3>
+            <div class="descrip" property="editableText"></div>
+          </div>
+          </div>
 
-      <!--<div class="LandingPageMain-eventSection">
+      </div>
+      </div> -->
+
+
+    <!-- <div class="LandingPageMain-eventSection">
        
-          <div class="event-card" mv-multiple>
+          <div class="event-card" >
             <div class="container" mv-multiple>
               <div class="tag" property="price">Free</div>
               <img
@@ -213,21 +190,15 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+            </div>
       </div> -->
+    <div class="LandingPageMain-testimonials">
 
-      <div class="LandingPageMain-testimonials">
-        <div>
-          <h2 id="testimonial">TESTIMONIALS</h2>
-        </div>
-        <div class="" style="width: 18rem;" mv-multiple>
-          <img
-            src=""
-            class="image-testimonials"
-            alt="add image"
-            property="image"
-          />
+      <h2 class = "testimonial-title">TESTIMONIALS</h2>
+
+      <div class="testimonials-container">
+        <div class="testimonail-card" mv-multiple>
+          <img class="image-testimonials" src="" alt="Add image" property="image" />
           <div class="card-body">
             <h1 id="name" property="NAME">jaafar</h1>
             <p></p>
@@ -236,56 +207,57 @@
           </div>
         </div>
       </div>
-      <div class="LandingPageMain-storySection">
-        <h2>Our Story</h2>
-        <p class="storySlogan">A place to reconnect with Nature</p>
-        <div class="story">
-          <p property="storyDescription"></p>
-        </div>
-      </div>
-      <div class="LandingPageMain-mapSection">
-        <div id="mapSection"><h2>location</h2></div>
+    </div>
+    <div class="LandingPageMain-storySection">
+      <h2>Our Story</h2>
+      <p class="storySlogan">A place to reconnect with Nature</p>
+      <div class="story">
+        <p property="storyDescription"></p>
       </div>
     </div>
-    <footer class="LandingPageMain-footerSection">
-      <div class="content">
-        <div class="socialMedia">
-          <p class="socialMedia-Title">Follow us on social Media</p>
-          <div class="socialMedia-Icons">
-            <div class="icon">
-              <a href="https://www.facebook.com/heavenecoland/" target="_blank">
-                <img src="./icons/facebook_icon.png" alt="facebook icon" />
-              </a>
-            </div>
-            <div class="icon">
-              <a
-                href="https://www.instagram.com/explore/locations/149529028940477/heaven-ecoland"
-                target="_blank"
-              >
-                <img src="./icons/insta_icon.png" alt="instagram icon" />
-              </a>
-            </div>
+    <div class="LandingPageMain-mapSection">
+      <div id="mapSection">
+        <h2>location</h2>
+      </div>
+    </div>
+  </div>
+  <footer class="LandingPageMain-footerSection">
+    <div class="content">
+      <div class="socialMedia">
+        <p class="socialMedia-Title">Follow us on social Media</p>
+        <div class="socialMedia-Icons">
+          <div class="icon">
+            <a href="https://www.facebook.com/heavenecoland/" target="_blank">
+              <img src="./icons/facebook_icon.png" alt="facebook icon" />
+            </a>
           </div>
-        </div>
-        <div class="contactUs">
-          <p class="contactus-Title">Contact Us</p>
-          <div class="contactUs-Icons">
-            <div class="icon">
-              <img src="./icons/phone.png" alt="phone icon" />
-              <p>+961 71 153 141</p>
-            </div>
-
-            <div class="icon">
-              <img src="./icons/681265_email_512x512.png" alt="phone icon" />
-              <p>heavenecoland@gmail.com</p>
-            </div>
+          <div class="icon">
+            <a href="https://www.instagram.com/explore/locations/149529028940477/heaven-ecoland" target="_blank">
+              <img src="./icons/insta_icon.png" alt="instagram icon" />
+            </a>
           </div>
         </div>
       </div>
+      <div class="contactUs">
+        <p class="contactus-Title">Contact Us</p>
+        <div class="contactUs-Icons">
+          <div class="icon">
+            <img src="./icons/phone.png" alt="phone icon" />
+            <p>+961 71 153 141</p>
+          </div>
 
-      <div class="copyRight">
-        <p>&copy; Heaven Ecoland</p>
+          <div class="icon">
+            <img src="./icons/681265_email_512x512.png" alt="phone icon" />
+            <p>heavenecoland@gmail.com</p>
+          </div>
+        </div>
       </div>
-    </footer>
-  </body>
+    </div>
+
+    <div class="copyRight">
+      <p>&copy; Heaven Ecoland</p>
+    </div>
+  </footer>
+</body>
+
 </html>
