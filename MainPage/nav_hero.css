@@ -399,3 +399,27 @@ body {
     padding: 2%;
   }
 }
+/* .testimonail-container{
+  /* background-color: red; */
+  /* height: auto; */
+  /* display:grid;
+
+  grid-template-areas: auto auto auto;
+} */
+/* .image-testimonials{
+  max-width: 100px;
+} */ 
+.avatar mx-auto white{
+  max-width: 50px;
+  border:  black 2px solid;
+}
+
+ 
+
+.image-tes{
+  border-radius: 800px;
+width: 250px;
+height: 250px;
+
+}
+
