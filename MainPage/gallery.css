@@ -1,4 +1,4 @@
-.LandingPageMain-images {
+.LandingPageMain-gallery {
   width: 100%;
   margin: 0 auto;
 }
@@ -8,7 +8,7 @@
   margin: 100px 0;
 }
 
-.LandingPageMain-images .galleryImage {
+.LandingPageMain-gallery .images-container {
   width: 80vw;
   margin: 0px auto;
   display: grid;
@@ -17,17 +17,20 @@
   gap: 20px 20px;
 }
 
-.mv-add-galleryImage {
+.mv-add-galleryImages {
+  height: 100%;
   background-color: rgba(255, 255, 255, 0);
   border: 2px dashed black;
   font-size: 25px;
 }
 
-.mv-add-galleryImage:hover {
+.mv-add-galleryImages:hover {
   background-color: rgba(117, 29, 82, 0.3);
 }
 
-.LandingPageMain-images .img {
+
+.LandingPageMain-gallery .galleryImage {
+  height: 100%;
   max-width: 100%;
   min-width: 100%;
   max-height: 100%;

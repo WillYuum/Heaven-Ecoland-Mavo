@@ -25,8 +25,8 @@
 
   <!----------------------------CSS LINK FOR HTML---------------------------->
   <link rel="stylesheet" href="GalleryPage.css" />
-  <link rel="stylesheet" href="../MainPage/gallery.css">
-  <link rel="stylesheet" href="../MainPage//footer.css">
+  <link rel="stylesheet" href="../MainPage/gallery.css" />
+  <link rel="stylesheet" href="../MainPage//footer.css" />
   <!----------------------------CSS LINK FOR HTML---------------------------->
 
   <title>Gallery</title>
@@ -34,55 +34,66 @@
 
 <body mv-app="Gallery" mv-plugins="gdrive"
   mv-storage="https://drive.google.com/file/d/1p10C-S_scC1_sNFxuaCYvR0u-EIXl0mi/view?usp=sharing">
-  <div container="galleryPage-container">
-    <div class="images-container">
+  <!--Navbar -->
+  <nav class="Contact_Nav">
+    <a href="../MainPage/LandingPageMain.html" class="Contact_Nav_Logo">Heaven Ecoland</a>
+    <div class="Contact_Nav_Right">
+      <a href="../EventsPage/EventsPage.html">Events</a>
+      <a href="../BlogPage/BlogPage.html">Blog</a>
+      <a href="../GalleryPage/GalleryPage.html">Gallery</a>
+      <a href="../ContactPage/ContactPage.html">Contact Us</a>
+    </div>
+  </nav>
+  <!--/.Navbar -->
+
+  <body mv-app="Gallery" mv-plugins="gdrive"
+    mv-storage="https://drive.google.com/file/d/1p10C-S_scC1_sNFxuaCYvR0u-EIXl0mi/view?usp=sharing">
+    <div container="galleryPage-container">
       <div class="LandingPageMain-gallery">
         <h2 class="gallery-title">Gallery</h2>
-        <div class="LandingPageMain-images">
-          <div class="galleryImage">
-            <img mv-multiple src="" alt="Add an image" class="img"  property="galleryImage"/>
+        <div class="images-container">
+          <div class="image-card" property="galleryImages" mv-multiple>
+            <img class="galleryImage" property="galleryImage">
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <footer class="LandingPageMain-footerSection">
-    <div class="content">
-      <div class="socialMedia">
-        <p class="socialMedia-Title">Follow us on social Media</p>
-        <div class="socialMedia-Icons">
-          <div class="icon">
-            <a href="https://www.facebook.com/heavenecoland/" target="_blank">
-              <img src="../MainPage/icons/facebook_icon.png" alt="facebook icon" />
-            </a>
+      <footer class="LandingPageMain-footerSection">
+        <div class="content">
+          <div class="socialMedia">
+            <p class="socialMedia-Title">Follow us on social Media</p>
+            <div class="socialMedia-Icons">
+              <div class="icon">
+                <a href="https://www.facebook.com/heavenecoland/" target="_blank">
+                  <img src="../MainPage/icons/facebook_icon.png" alt="facebook icon" />
+                </a>
+              </div>
+              <div class="icon">
+                <a href="https://www.instagram.com/explore/locations/149529028940477/heaven-ecoland" target="_blank">
+                  <img src="../MainPage/icons/insta_icon.png" alt="instagram icon" />
+                </a>
+              </div>
+            </div>
           </div>
-          <div class="icon">
-            <a href="https://www.instagram.com/explore/locations/149529028940477/heaven-ecoland" target="_blank">
-              <img src="../MainPage/icons/insta_icon.png" alt="instagram icon" />
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="contactUs">
-        <p class="contactus-Title">Contact Us</p>
-        <div class="contactUs-Icons">
-          <div class="icon">
-            <img src="../MainPage/icons/phone.png" alt="phone icon" />
-            <p>+961 71 153 141</p>
-          </div>
+          <div class="contactUs">
+            <p class="contactus-Title">Contact Us</p>
+            <div class="contactUs-Icons">
+              <div class="icon">
+                <img src="../MainPage/icons/phone.png" alt="phone icon" />
+                <p>+961 71 153 141</p>
+              </div>
 
-          <div class="icon">
-            <img src="../MainPage/icons/681265_email_512x512.png" alt="phone icon" />
-            <p>heavenecoland@gmail.com</p>
+              <div class="icon">
+                <img src="../MainPage/icons/681265_email_512x512.png" alt="phone icon" />
+                <p class="Gmail_Heaven">heavenecoland@gmail.com</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
 
-    <div class="copyRight">
-      <p>&copy; Heaven Ecoland</p>
-    </div>
-  </footer>
-</body>
+        <div class="copyRight">
+          <p>&copy; Heaven Ecoland</p>
+        </div>
+      </footer>
+  </body>
 
 </html>
