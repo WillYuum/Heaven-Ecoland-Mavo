@@ -1,0 +1,85 @@
+/* nav section */
+.Contact_Nav .Contact_Nav_Right {
+  float: right;
+  margin-right: 100px;
+  word-spacing: 15px;
+}
+
+.Contact_Nav .Contact_Nav_Logo {
+  margin-left: 30px;
+}
+
+.Contact_Nav {
+  margin-bottom: 50px;
+}
+
+.Contact_Nav {
+  background-color: #5f5f5f;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 5; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  overflow: hidden;
+  z-index: 1;
+}
+.Contact_Nav a {
+  color: white;
+  font-size: 25px;
+}
+
+/* media queries for cellphones*/
+@media only screen and (min-width: 320px) {
+  /* nav section */
+  .Contact_Nav .Contact_Nav_Right {
+    float: right;
+    margin-right: 30px;
+    word-spacing: 5px;
+  }
+
+  /* contact info  */
+  .Contact_Container .Contact_Information {
+    height: 20px;
+    display: inline-block;
+  }
+
+  .Contact_Nav .Contact_Nav_Logo {
+    margin-left: 10px;
+  }
+
+  .Contact_Nav {
+    margin-bottom: 50px;
+  }
+  .Contact_Nav a {
+    font-size: 0.7em;
+    margin-bottom: 50px;
+  }
+}
+
+/* media queries for ipad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .Contact_Nav {
+    font-size: 25px;
+    margin-bottom: 50px;
+    padding-right: 70px;
+  }
+}
+
+/* media queries for ipad pro*/
+@media only screen and (min-width: 1024px) {
+  .Contact_Nav {
+    font-size: 35px;
+    margin-bottom: 50px;
+  }
+
+  .Contact_Nav .Contact_Nav_Right {
+    float: right;
+    word-spacing: 15px;
+  }
+}
+
+/* ------------------------------------------------------------ */
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  /* footer gmail */
+  .LandingPageMain-footerSection .content .contactUs-Icons .icon .Gmail_Heaven {
+    font-size: 0.8em;
+  }
+}
