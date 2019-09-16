@@ -9,7 +9,7 @@
 }
 
 /* event container */
-.LandingPageMain-eventSection .container {
+.LandingPageMain-eventSection .event-container {
   border: 0 px solid #dddddd;
   width: 300px;
   height: fit-content;
