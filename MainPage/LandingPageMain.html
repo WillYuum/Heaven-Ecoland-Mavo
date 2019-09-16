@@ -139,9 +139,9 @@
     <!------------------<GALLERY>---------------------->
     <div class="LandingPageMain-gallery">
       <h2 class="gallery-title">Gallery</h2>
-      <div class="LandingPageMain-images">
-        <div class="galleryImage">
-          <img mv-multiple property="galleryImage" src="" alt="Add an image" class="img" />
+      <div class="images-container">
+        <div class="image-card" property="galleryImages" mv-multiple>
+          <img class="galleryImage" property="galleryImage">
         </div>
       </div>
     </div>
@@ -149,7 +149,7 @@
     <!------------------</GALLERY>---------------------->
 
     <!----------------------<EVENT-------------------------->
-    <div class="LandingPageMain-eventSection">
+    <!-- <div class="LandingPageMain-eventSection">
 
       <div class="event-card">
         <div class="event-container" mv-multiple>
@@ -166,7 +166,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- <div class="LandingPageMain-testimonials">
 
       <h2 class="testimonial-title">TESTIMONIALS</h2>
@@ -189,97 +189,100 @@
     </div>  -->
     <!-- Section: Testimonials v.1 -->
     <div class="LandingPageMain-testimonials">
-<section class="text-center my-5 p-1">
+      <section class="text-center my-5 p-1">
 
-  <!-- Section heading -->
-  <h2 class="h1-responsive font-weight-bold my-5">Testimonials:</h2>
-  <!-- Section description -->
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-weight-bold my-5">Testimonials:</h2>
+        <!-- Section description -->
 
 
-  <!-- Grid row -->
-  <div class="row">
+        <!-- Grid row -->
+        <div class="row">
 
-    <!--Grid column-->
-    <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-      <!--Card-->
-      <div class="card testimonial-card">
-        <!--Background color-->
-        <div class="card-up info-color"></div>
-        <!--Avatar-->
-        <div class="avatar mx-auto white">
-          <img class="image-tes" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" property="testimonial-Image3" class="rounded-circle img-fluid">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+            <!--Card-->
+            <div class="card testimonial-card">
+              <!--Background color-->
+              <div class="card-up info-color"></div>
+              <!--Avatar-->
+              <div class="avatar mx-auto white">
+                <img class="image-tes" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
+                  property="testimonial-Image3" class="rounded-circle img-fluid">
+              </div>
+              <div class="card-body">
+                <!--Name-->
+                <h4 class="font-weight-bold mb-4" property="name">John Doe</h4>
+                <hr>
+                <!--Quotation--> <time class="text-muted" datetime property="date">date</time>
+
+                <p class="dark-grey-text mt-4" property="text"></p>
+              </div>
+            </div>
+            <!--Card-->
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+            <!--Card-->
+            <div class="card testimonial-card">
+              <!--Background color-->
+              <div class="card-up blue-gradient">
+              </div>
+              <!--Avatar-->
+              <div class="avatar mx-50 white">
+                <img class="image-tes" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg"
+                  class="rounded-circle img-fluid" property="testimonial-Image2">
+              </div>
+              <div class="card-body">
+                <!--Name-->
+                <h4 class="font-weight-bold mb-4" property="name">Anna Aston</h4>
+                <hr>
+                <!--Quotation-->
+                <time class="text-muted" datetime property="date">date</time>
+
+                <p class="dark-grey-text mt-4" property="text"></p>
+                </p>
+              </div>
+            </div>
+            <!--Card-->
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6">
+            <!--Card-->
+            <div class="card testimonial-card">
+              <!--Background color-->
+              <div class="card-up indigo"></div>
+              <!--Avatar-->
+              <div class="avatar mx-auto white">
+                <img class="image-tes" property="testimonial-Image"
+                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle img-fluid">
+              </div>
+              <div class="card-body">
+                <!--Name-->
+                <h4 class="font-weight-bold mb-4" property="name">Maria Kate</h4>
+                <hr>
+                <!--Quotation-->
+                <time class="text-muted" datetime property="date">date</time>
+
+                <p class="dark-grey-text mt-4" property="text"></p>
+
+              </div>
+            </div>
+            <!--Card-->
+          </div>
+          <!--Grid column-->
+
         </div>
-        <div class="card-body">
-          <!--Name-->
-          <h4 class="font-weight-bold mb-4" property="name">John Doe</h4>
-          <hr>
-          <!--Quotation-->    <time class="text-muted" datetime property="date">date</time>
+        <!-- Grid row -->
 
-          <p class="dark-grey-text mt-4" property="text"></p>
-        </div>
-      </div>
-      <!--Card-->
+      </section>
     </div>
-    <!--Grid column-->
+    <!-- Section: Testimonials v.1 -->
 
-    <!--Grid column-->
-    <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
-      <!--Card-->
-      <div class="card testimonial-card">
-        <!--Background color-->
-        <div class="card-up blue-gradient">
-        </div>
-        <!--Avatar-->
-        <div class="avatar mx-50 white">
-          <img class="image-tes"src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle img-fluid" property="testimonial-Image2">
-        </div>
-        <div class="card-body">
-          <!--Name-->
-          <h4 class="font-weight-bold mb-4" property="name">Anna Aston</h4>
-          <hr>
-          <!--Quotation-->
-          <time class="text-muted" datetime property="date">date</time>
-
-          <p class="dark-grey-text mt-4" property="text"></p>
-            </p>
-        </div>
-      </div>
-      <!--Card-->
-    </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-    <div class="col-lg-3 col-md-6">
-      <!--Card-->
-      <div class="card testimonial-card">
-        <!--Background color-->
-        <div class="card-up indigo"></div>
-        <!--Avatar-->
-        <div class="avatar mx-auto white">
-          <img class="image-tes" property="testimonial-Image" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle img-fluid">
-        </div>
-        <div class="card-body">
-          <!--Name-->
-          <h4 class="font-weight-bold mb-4" property="name">Maria Kate</h4>
-          <hr>
-          <!--Quotation-->
-          <time class="text-muted" datetime property="date">date</time>
-
-          <p class="dark-grey-text mt-4" property="text"></p>
-
-        </div>
-      </div>
-      <!--Card-->
-    </div>
-    <!--Grid column-->
-
-  </div>
-  <!-- Grid row -->
-
-</section>
-</div>
-<!-- Section: Testimonials v.1 -->
- 
 
 
     <div class="LandingPageMain-storySection">
@@ -312,7 +315,7 @@
               background: none !important;
               height: 500px;
               width: 600px;
-              
+
             }
           </style>
         </div>
