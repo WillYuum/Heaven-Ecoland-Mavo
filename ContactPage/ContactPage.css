@@ -1,0 +1,118 @@
+/* contact section */
+.Contact_Container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 300px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* contact info  */
+.Contact_Container .Contact_Information {
+  height: 150px;
+  display: inline-block;
+}
+
+/* map */
+.Contact_Container .Contact_Map iframe {
+  width: 70%;
+  height: 400px;
+  display: inline-block;
+}
+
+/* contact section heading */
+.ContactPage h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 10vh;
+  margin-top: 90px;
+}
+
+/* contact info heading */
+.Contact_Container .Contact_Information h4 {
+  line-height: 2em;
+}
+
+/* nav section */
+.Contact_Nav .Contact_Nav_Right {
+  float: right;
+  margin-right: 100px;
+  word-spacing: 15px;
+}
+
+.Contact_Nav .Contact_Nav_Logo {
+  margin-left: 30px;
+}
+
+.Contact_Nav {
+  font-size: 2.5em;
+  margin-bottom: 50px;
+}
+
+.Contact_Nav {
+  background-color: #5f5f5f;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 5; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  overflow: hidden;
+  z-index: 1;
+}
+.Contact_Nav a {
+  color: white;
+}
+
+.ContactPage {
+  width: 100%;
+}
+
+/* media queries for cellphones*/
+@media only screen and (min-width: 320px) {
+  /* nav section */
+  .Contact_Nav .Contact_Nav_Right {
+    float: right;
+    margin-right: 20px;
+    word-spacing: 5px;
+  }
+
+  /* contact info  */
+  .Contact_Container .Contact_Information {
+    height: 20px;
+    display: inline-block;
+  }
+  /* map */
+  .Contact_Container .Contact_Map {
+    margin-top: 5px;
+  }
+  .Contact_Nav .Contact_Nav_Logo {
+    margin-left: 10px;
+  }
+
+  .Contact_Nav {
+    font-size: 12px;
+    margin-bottom: 50px;
+  }
+}
+
+/* media queries for ipad */
+@media only screen and (min-width: 768px) {
+  .Contact_Nav {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+}
+/* media queries for ipad pro */
+@media only screen and (min-width: 1024px) {
+  .LandingPageMain-footerSection {
+    background-color: #ededed;
+    width: 100%;
+    padding: 40px 0;
+    margin-top: 350px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  /* footer gmail */
+  .LandingPageMain-footerSection .content .contactUs-Icons .icon .Gmail_Heaven {
+    font-size: 1.2em;
+  }
+}
