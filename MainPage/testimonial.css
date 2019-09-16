@@ -1,18 +1,19 @@
-.LandingPageMain-testimonials{
-	display: grid;
-	grid-template-columns: auto auto auto;
-	margin-left:200px;
-	padding:200px 0 0 0px;
+ /* .LandingPageMain-testimonials .testimonial-title {
+  text-align: center;
 }
-.image-testimonials{
-	height: 200px;
-	max-width: 200px;
-	border-radius: 280px;
+
+.LandingPageMain-testimonials .testimonials-card {
+  width: 80vw;
 }
-#name{
-	margin-left: 35px;
+
+.image-testimonials {
+  height: 200px;
+  max-width: 200px;
+  border-radius: 280px;
 }
-#mapSection{
-	
-	background-image: url('https://maps.googleapis.com/maps/api/staticmap?scale=1&size=1600x900&style=feature:poi.business|visibility:off&style=feature:water|visibility:simplified&style=feature:road|element:labels.icon|visibility:off&style=feature:road.highway|element:labels|saturation:-90|lightness:25&format=jpg&language=en&region=LB&markers=color:0x48487f|33.7118721,35.6255482&zoom=16&client=google-presto&signature=Gr0AmzVpqgHQPWJYU4b6VnYrc8Q');
+ #name {
+  margin-left: 35px;
 }
+#mapSection {
+  background-image: url("https://maps.googleapis.com/maps/api/staticmap?scale=1&size=1600x900&style=feature:poi.business|visibility:off&style=feature:water|visibility:simplified&style=feature:road|element:labels.icon|visibility:off&style=feature:road.highway|element:labels|saturation:-90|lightness:25&format=jpg&language=en&region=LB&markers=color:0x48487f|33.7118721,35.6255482&zoom=16&client=google-presto&signature=Gr0AmzVpqgHQPWJYU4b6VnYrc8Q");
+} */
