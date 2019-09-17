@@ -1,6 +1,7 @@
 .hero-img{
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 .tittle-2{
     font-style: italic;
@@ -21,4 +22,31 @@
     margin-left: 350px;
     margin-top: 60px;
    
+}
+.paragraph-event{
+    width: 500px;
+   color: aliceblue;
+   font-size: 20px;
+   box-sizing: content-box;
+   padding: 0;
+   margin: 0;
+
+}
+
+
+.event-title{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 50px auto;
+    max-width: 50%;
+   
+
+}
+.LandingPageMain2-hero{
+    display: grid;
+    align-items: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   min-height: 100vh;
 }
