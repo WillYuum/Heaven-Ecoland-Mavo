@@ -9,31 +9,12 @@
   margin: 0 auto;
 }
 
-.map_router {
-  text-align: center !important;
-}
-
-.map_router iframe {
-  background-color: red;
-  width: 700px !important;
-  height: 500px;
+[mv-permissions~="login"] .mv-bar.mv-ui {
+  display: none;
 }
 
 @media only screen and (min-width: 320px) {
   .contactUs .Gmail_Heaven {
     font-size: 13px !important;
   }
-
-  .LandingPageMain-mapSection iframe {
-    width: 700px !important;
-    height: 500px !important;
-    margin-left: 10px;
-  }
-  .LandingPageMain-mapSection {
-    margin-top: 150px;
-  }
-}
-
-[mv-permissions~="login"] .mv-bar.mv-ui {
-  display: none;
 }

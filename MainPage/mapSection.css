@@ -1,0 +1,19 @@
+.mapSection {
+  width: 100%;
+}
+
+.ReachUs {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.map_router {
+    text-align: center !important;
+  }
+  
+  .map_router iframe {
+    width: 100% !important;
+    height: 720px;
+  }
+
+

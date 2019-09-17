@@ -1,61 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-----------------MAVO DATA --------------------->
-    <script src="../Mavo/mavo.js"></script>
-    <link rel="stylesheet" href="../Mavo/mavo.css" />
-    <!-----------------MAVO DATA --------------------->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-----------------MAVO Gdrive PLUGIN-------------->
-    <script src="../mavo-gdrive-master/mavo-gdrive.js"></script>
-    <!-----------------MAVO Gdrive PLUGIN-------------->
+  <!-----------------MAVO DATA --------------------->
+  <script src="../Mavo/mavo.js"></script>
+  <link rel="stylesheet" href="../Mavo/mavo.css" />
+  <!-----------------MAVO DATA --------------------->
 
-    <!--------------------------------BOOTSTRAP DATA--------------------------------------->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <!--------------------------------BOOTSTRAP DATA--------------------------------------->
+  <!-----------------MAVO Gdrive PLUGIN-------------->
+  <script src="../mavo-gdrive-master/mavo-gdrive.js"></script>
+  <!-----------------MAVO Gdrive PLUGIN-------------->
 
-    <!----------------------------CSS LINK FOR HTML---------------------------->
-    <link rel="stylesheet" href="BlogPage.css" />
-    <!----------------------------CSS LINK FOR HTML---------------------------->
+  <!--------------------------------BOOTSTRAP DATA--------------------------------------->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!--------------------------------BOOTSTRAP DATA--------------------------------------->
 
-    <title>Blogs</title>
-  </head>
-  <body
-    mv-app="BlogPage"
-    mv-plugins="gdrive"
-    mv-storage="https://drive.google.com/file/d/1p10C-S_scC1_sNFxuaCYvR0u-EIXl0mi/view?usp=sharing"
-  >
+  <!----------------------------CSS LINK FOR HTML---------------------------->
+  <link rel="stylesheet" href="BlogPage.css" />
+  <!----------------------------CSS LINK FOR HTML---------------------------->
+
+  <title>Blogs</title>
+</head>
+
+<body mv-app="BlogPage" mv-plugins="gdrive"
+  mv-storage="https://drive.google.com/file/d/1p10C-S_scC1_sNFxuaCYvR0u-EIXl0mi/view?usp=sharing">
   <H1>BLOGS</H1>
 
- <div id="second-blog" mv-multiple>
-   <div id="blog-info">
-    <h6 id="title-blog"  id="title-name" property="TITLE">TITLE: </h6>
-    <h6 id="date">    <time class="time" property="datetime" datetime
-        >2008-01-01</time
-      ></h6>
+  <div id="second-blog" mv-multiple>
+    <div id="blog-info">
+      <h6 id="title-blog" id="title-name" property="TITLE">TITLE: </h6>
+      <h6 id="date"> <time class="time" property="datetime" datetime>2008-01-01</time></h6>
       <br>
 
     </div>
-      <p id="paragraph" property="blog-description"></p>
-        
-</div>
- 
-        
-    
+    <p id="paragraph" property="blog-description"></p>
 
-  </body>
+  </div>
+
+
+
+  <script src="../js/BackStage_Login.js"></script>
+
+</body>
+
 </html>
