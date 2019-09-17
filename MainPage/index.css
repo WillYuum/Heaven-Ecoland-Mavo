@@ -33,3 +33,7 @@
     margin-top: 150px;
   }
 }
+
+[mv-permissions~="login"] .mv-bar.mv-ui {
+  display: none;
+}
