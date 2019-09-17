@@ -1,5 +1,7 @@
 .LandingPageMain-storySection {
+  background-color: #EDEDED;
   width: 100%;
+  padding:35px 0px;
 }
 
 .LandingPageMain-storySection h2 {
@@ -13,7 +15,6 @@
 }
 
 .LandingPageMain-storySection .story {
-  height: 200px;
   width: 70%;
   margin: 0 auto;
 }
